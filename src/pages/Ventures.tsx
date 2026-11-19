@@ -43,28 +43,28 @@ export const Ventures: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#0B0D12] text-[#F8FAFC] overflow-x-hidden selection:bg-amber-400 selection:text-black">
+    <div className="min-h-screen bg-[#F8FAFC] text-[#0F172A] overflow-x-hidden selection:bg-amber-400 selection:text-black">
       
       {/* =========================================================================
           HERO SECTION
           ========================================================================= */}
       <section className="relative pt-16 pb-20 md:pt-24 md:pb-28 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
-        <div className="absolute top-10 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-gradient-to-r from-amber-500/15 via-indigo-500/10 to-amber-500/5 blur-[140px] rounded-full pointer-events-none" />
+        <div className="absolute top-10 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-amber-500/10 blur-[140px] rounded-full pointer-events-none" />
 
         <div className="relative z-10 max-w-4xl mx-auto space-y-6">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-mono">
-            <Sparkles className="w-3.5 h-3.5" />
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-50 border border-amber-200 text-amber-900 text-xs font-mono font-semibold">
+            <Sparkles className="w-3.5 h-3.5 text-amber-600" />
             <span>YUGAM INNOVATION LAB // VENTURE STUDIO</span>
           </div>
 
-          <h1 className="font-heading font-extrabold text-4xl sm:text-6xl text-white tracking-tight leading-tight">
+          <h1 className="font-heading font-extrabold text-4xl sm:text-6xl text-slate-900 tracking-tight leading-tight">
             Where Agency Execution Meets{' '}
-            <span className="bg-gradient-to-r from-amber-400 via-amber-300 to-indigo-300 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-amber-600 via-amber-500 to-indigo-600 bg-clip-text text-transparent">
               Product Innovation.
             </span>
           </h1>
 
-          <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+          <p className="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
             Most agencies only build for clients. Yugam reinvests its engineering and creative horsepower into incubations that solve fundamental societal challenges across relationship discovery and modern education.
           </p>
         </div>
@@ -74,129 +74,126 @@ export const Ventures: React.FC = () => {
           FLAGSHIP 1: GATBANDHAN AI
           ========================================================================= */}
       <section className="py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div className="rounded-3xl bg-gradient-to-b from-[#131722] to-[#0E1119] border border-amber-500/30 p-8 sm:p-12 lg:p-16 shadow-2xl relative overflow-hidden">
+        <div className="rounded-3xl bg-white border border-slate-200/90 p-8 sm:p-12 lg:p-16 shadow-lg relative overflow-hidden">
           
-          {/* Subtle amber ambient glow */}
-          <div className="absolute top-0 right-0 w-[450px] h-[450px] bg-amber-500/10 rounded-full blur-[120px] pointer-events-none" />
-
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             
             {/* Left Column: Info & Story */}
             <div className="lg:col-span-7 space-y-6">
               
               <div className="flex flex-wrap items-center gap-3">
-                <span className="px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 text-xs font-mono font-semibold">
+                <span className="px-3 py-1 rounded-full bg-amber-100 text-amber-900 border border-amber-200 text-xs font-mono font-bold">
                   FLAGSHIP VENTURE 01
                 </span>
-                <span className="px-3 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-mono flex items-center gap-1.5">
-                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
+                <span className="px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-mono font-semibold flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
                   In Development • Launching Soon
                 </span>
               </div>
 
               <div>
-                <h2 className="font-heading font-extrabold text-3xl sm:text-5xl text-white tracking-tight flex items-center gap-3">
+                <h2 className="font-heading font-extrabold text-3xl sm:text-5xl text-slate-900 tracking-tight flex items-center gap-3">
                   Gatbandhan AI
                 </h2>
-                <div className="text-sm sm:text-base font-heading font-medium text-amber-400 mt-2">
+                <div className="text-sm sm:text-base font-heading font-semibold text-amber-600 mt-2">
                   100% Secure, Intelligent, and Efficient Matchmaking.
                 </div>
               </div>
 
-              <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-                The modern matchmaking ecosystem is plagued by fake bot profiles, catfishing, commercial data selling, and superficial swiping fatigue. <strong className="text-white">Gatbandhan AI</strong> fundamentally rebuilds relationship discovery. By enforcing mandatory multi-layer biometric and government ID verification with privacy-preserving zero-knowledge proofs, we ensure every interaction is authentic and intentional.
+              <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
+                The modern matchmaking ecosystem is plagued by fake bot profiles, catfishing, commercial data selling, and superficial swiping fatigue. <strong className="text-slate-900">Gatbandhan AI</strong> fundamentally rebuilds relationship discovery. By enforcing mandatory multi-layer biometric and government ID verification with privacy-preserving zero-knowledge proofs, we ensure every interaction is authentic and intentional.
               </p>
 
               {/* 4 Feature Badges */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
-                <div className="p-4 rounded-xl bg-white/[0.03] border border-white/5 space-y-1">
-                  <div className="flex items-center gap-2 text-white font-heading font-bold text-sm">
-                    <ShieldCheck className="w-4 h-4 text-emerald-400" />
+                <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1">
+                  <div className="flex items-center gap-2 text-slate-900 font-heading font-bold text-sm">
+                    <ShieldCheck className="w-4 h-4 text-emerald-600" />
                     <span>100% Verified Profiles</span>
                   </div>
-                  <p className="text-xs text-slate-400">Zero bots, zero fraudulent profiles, strict KYC.</p>
+                  <p className="text-xs text-slate-500">Zero bots, zero fraudulent profiles, strict KYC.</p>
                 </div>
 
-                <div className="p-4 rounded-xl bg-white/[0.03] border border-white/5 space-y-1">
-                  <div className="flex items-center gap-2 text-white font-heading font-bold text-sm">
-                    <Lock className="w-4 h-4 text-amber-400" />
+                <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1">
+                  <div className="flex items-center gap-2 text-slate-900 font-heading font-bold text-sm">
+                    <Lock className="w-4 h-4 text-amber-600" />
                     <span>End-to-End Privacy</span>
                   </div>
-                  <p className="text-xs text-slate-400">Your contact info & photos remain masked until mutual intent.</p>
+                  <p className="text-xs text-slate-500">Your contact info & photos remain masked until mutual intent.</p>
                 </div>
 
-                <div className="p-4 rounded-xl bg-white/[0.03] border border-white/5 space-y-1">
-                  <div className="flex items-center gap-2 text-white font-heading font-bold text-sm">
-                    <Cpu className="w-4 h-4 text-indigo-400" />
+                <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1">
+                  <div className="flex items-center gap-2 text-slate-900 font-heading font-bold text-sm">
+                    <Cpu className="w-4 h-4 text-indigo-600" />
                     <span>AI Compatibility Engine</span>
                   </div>
-                  <p className="text-xs text-slate-400">Values, lifestyle, and life goals matched beyond surface photos.</p>
+                  <p className="text-xs text-slate-500">Values, lifestyle, and life goals matched beyond surface photos.</p>
                 </div>
 
-                <div className="p-4 rounded-xl bg-white/[0.03] border border-white/5 space-y-1">
-                  <div className="flex items-center gap-2 text-white font-heading font-bold text-sm">
-                    <HeartHandshake className="w-4 h-4 text-pink-400" />
+                <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1">
+                  <div className="flex items-center gap-2 text-slate-900 font-heading font-bold text-sm">
+                    <HeartHandshake className="w-4 h-4 text-pink-600" />
                     <span>Curated Intent Matches</span>
                   </div>
-                  <p className="text-xs text-slate-400">Quality over quantity: 3 curated matches a week, not endless swiping.</p>
+                  <p className="text-xs text-slate-500">Quality over quantity: 3 curated matches a week, not endless swiping.</p>
                 </div>
               </div>
 
             </div>
 
             {/* Right Column: Early Access Waitlist Form */}
-            <div className="lg:col-span-5 bg-[#0B0D12] p-8 rounded-2xl border border-white/10 shadow-xl">
+            <div className="lg:col-span-5 bg-slate-50 p-8 rounded-2xl border border-slate-200 shadow-sm">
               <div className="mb-6">
-                <span className="text-xs font-mono text-amber-400 uppercase tracking-widest block mb-1">
+                <span className="text-xs font-mono text-amber-700 uppercase tracking-widest font-bold block mb-1">
                   EXCLUSIVE ALPHA ACCESS
                 </span>
-                <h3 className="font-heading font-bold text-xl text-white">
+                <h3 className="font-heading font-bold text-xl text-slate-900">
                   Join the Gatbandhan Waitlist
                 </h3>
-                <p className="text-xs text-slate-400 mt-1">
+                <p className="text-xs text-slate-500 mt-1">
                   Be among the first 1,000 verified founding members upon release.
                 </p>
               </div>
 
               {gatbandhanSubmitted ? (
-                <div className="p-6 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-center space-y-3">
-                  <div className="w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center mx-auto">
+                <div className="p-6 rounded-xl bg-emerald-50 border border-emerald-200 text-center space-y-3">
+                  <div className="w-12 h-12 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto">
                     <CheckCircle2 className="w-6 h-6" />
                   </div>
-                  <div className="font-heading font-bold text-white text-base">
+                  <div className="font-heading font-bold text-slate-900 text-base">
                     You're on the Gatbandhan VIP list!
                   </div>
-                  <p className="text-xs text-slate-300">
+                  <p className="text-xs text-slate-600">
                     We’ve reserved your early access pass. Watch your inbox ({gatbandhanEmail}) for the private invitation link.
                   </p>
                 </div>
               ) : (
                 <form onSubmit={handleGatbandhanSubmit} className="space-y-4">
                   <div>
-                    <label className="block text-xs font-medium text-slate-300 mb-1.5">
+                    <label className="block text-xs font-semibold text-slate-700 mb-1.5">
                       Your Email Address
                     </label>
                     <div className="relative">
-                      <Mail className="w-4 h-4 text-slate-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                      <Mail className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
                       <input
                         type="email"
                         required
                         value={gatbandhanEmail}
                         onChange={(e) => setGatbandhanEmail(e.target.value)}
                         placeholder="you@domain.com"
-                        className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-white/[0.05] border border-white/10 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-amber-400 transition-colors"
+                        className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-white border border-slate-200 text-slate-900 placeholder-slate-400 text-sm focus:outline-none focus:border-amber-500 shadow-xs transition-colors"
                       />
                     </div>
                   </div>
 
                   <div>
-                    <label className="block text-xs font-medium text-slate-300 mb-1.5">
+                    <label className="block text-xs font-semibold text-slate-700 mb-1.5">
                       I Am Joining As
                     </label>
                     <select
                       value={gatbandhanRole}
                       onChange={(e) => setGatbandhanRole(e.target.value)}
-                      className="w-full px-3.5 py-2.5 rounded-xl bg-[#131722] border border-white/10 text-white text-sm focus:outline-none focus:border-amber-400 transition-colors"
+                      className="w-full px-3.5 py-2.5 rounded-xl bg-white border border-slate-200 text-slate-900 text-sm focus:outline-none focus:border-amber-500 shadow-xs transition-colors"
                     >
                       <option value="Individual / Early User">Individual Looking for Verified Matchmaking</option>
                       <option value="Parent / Family Member">Family Member Exploring Safe Options</option>
@@ -206,14 +203,14 @@ export const Ventures: React.FC = () => {
 
                   <button
                     type="submit"
-                    className="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-500 hover:to-amber-600 text-black font-heading font-bold text-xs uppercase tracking-wider transition-all shadow-lg shadow-amber-500/20 active:scale-98 flex items-center justify-center gap-2"
+                    className="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-heading font-bold text-xs uppercase tracking-wider transition-all shadow-md shadow-amber-500/20 active:scale-98 flex items-center justify-center gap-2"
                   >
                     <span>Request Early Access</span>
                     <Send className="w-3.5 h-3.5" />
                   </button>
 
                   <div className="text-[11px] text-slate-500 text-center flex items-center justify-center gap-1">
-                    <Lock className="w-3 h-3" />
+                    <Lock className="w-3 h-3 text-slate-400" />
                     <span>Zero spam. 100% strict data privacy.</span>
                   </div>
                 </form>
@@ -228,129 +225,126 @@ export const Ventures: React.FC = () => {
           FLAGSHIP 2: MIDDLE BENCHER
           ========================================================================= */}
       <section className="py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div className="rounded-3xl bg-gradient-to-b from-[#131722] to-[#0E1119] border border-indigo-500/30 p-8 sm:p-12 lg:p-16 shadow-2xl relative overflow-hidden">
+        <div className="rounded-3xl bg-white border border-slate-200/90 p-8 sm:p-12 lg:p-16 shadow-lg relative overflow-hidden">
           
-          {/* Subtle indigo ambient glow */}
-          <div className="absolute top-0 right-0 w-[450px] h-[450px] bg-indigo-500/10 rounded-full blur-[120px] pointer-events-none" />
-
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             
             {/* Left Column: Info & Story */}
             <div className="lg:col-span-7 space-y-6">
               
               <div className="flex flex-wrap items-center gap-3">
-                <span className="px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 text-xs font-mono font-semibold">
+                <span className="px-3 py-1 rounded-full bg-indigo-100 text-indigo-900 border border-indigo-200 text-xs font-mono font-bold">
                   FLAGSHIP VENTURE 02
                 </span>
-                <span className="px-3 py-1 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 text-xs font-mono flex items-center gap-1.5">
-                  <span className="w-2 h-2 rounded-full bg-amber-400 animate-ping" />
+                <span className="px-3 py-1 rounded-full bg-amber-50 text-amber-800 border border-amber-200 text-xs font-mono font-semibold flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-amber-500 animate-ping" />
                   Curriculum in Production • Launching Soon
                 </span>
               </div>
 
               <div>
-                <h2 className="font-heading font-extrabold text-3xl sm:text-5xl text-white tracking-tight flex items-center gap-3">
+                <h2 className="font-heading font-extrabold text-3xl sm:text-5xl text-slate-900 tracking-tight flex items-center gap-3">
                   Middle Bencher
                 </h2>
-                <div className="text-sm sm:text-base font-heading font-medium text-indigo-400 mt-2">
+                <div className="text-sm sm:text-base font-heading font-semibold text-indigo-600 mt-2">
                   Practical Skills for the Real World.
                 </div>
               </div>
 
-              <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-                Traditional college degrees teach theory from outdated textbooks. Today’s high-paying tech and creative roles demand immediate execution. <strong className="text-white">Middle Bencher</strong> is an upcoming skill-building incubator created for the self-driven learner. We cut through academic fluff to teach production-ready skills: modern full-stack development, AI agent workflows, viral video storytelling, and performance marketing.
+              <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
+                Traditional college degrees teach theory from outdated textbooks. Today’s high-paying tech and creative roles demand immediate execution. <strong className="text-slate-900">Middle Bencher</strong> is an upcoming skill-building incubator created for the self-driven learner. We cut through academic fluff to teach production-ready skills: modern full-stack development, AI agent workflows, viral video storytelling, and performance marketing.
               </p>
 
               {/* 4 Feature Badges */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
-                <div className="p-4 rounded-xl bg-white/[0.03] border border-white/5 space-y-1">
-                  <div className="flex items-center gap-2 text-white font-heading font-bold text-sm">
-                    <Code className="w-4 h-4 text-indigo-400" />
+                <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1">
+                  <div className="flex items-center gap-2 text-slate-900 font-heading font-bold text-sm">
+                    <Code className="w-4 h-4 text-indigo-600" />
                     <span>Project-First Learning</span>
                   </div>
-                  <p className="text-xs text-slate-400">No rote exams. You build live apps, real shoots, and ad campaigns.</p>
+                  <p className="text-xs text-slate-500">No rote exams. You build live apps, real shoots, and ad campaigns.</p>
                 </div>
 
-                <div className="p-4 rounded-xl bg-white/[0.03] border border-white/5 space-y-1">
-                  <div className="flex items-center gap-2 text-white font-heading font-bold text-sm">
-                    <Users className="w-4 h-4 text-emerald-400" />
+                <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1">
+                  <div className="flex items-center gap-2 text-slate-900 font-heading font-bold text-sm">
+                    <Users className="w-4 h-4 text-emerald-600" />
                     <span>Industry Mentorship</span>
                   </div>
-                  <p className="text-xs text-slate-400">Mentored directly by Yugam’s senior engineers & growth leads.</p>
+                  <p className="text-xs text-slate-500">Mentored directly by Yugam’s senior engineers & growth leads.</p>
                 </div>
 
-                <div className="p-4 rounded-xl bg-white/[0.03] border border-white/5 space-y-1">
-                  <div className="flex items-center gap-2 text-white font-heading font-bold text-sm">
-                    <Briefcase className="w-4 h-4 text-amber-400" />
+                <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1">
+                  <div className="flex items-center gap-2 text-slate-900 font-heading font-bold text-sm">
+                    <Briefcase className="w-4 h-4 text-amber-600" />
                     <span>Real Portfolio Building</span>
                   </div>
-                  <p className="text-xs text-slate-400">Graduate with 4 verified production projects employers value.</p>
+                  <p className="text-xs text-slate-500">Graduate with 4 verified production projects employers value.</p>
                 </div>
 
-                <div className="p-4 rounded-xl bg-white/[0.03] border border-white/5 space-y-1">
-                  <div className="flex items-center gap-2 text-white font-heading font-bold text-sm">
-                    <Flame className="w-4 h-4 text-rose-400" />
+                <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-1">
+                  <div className="flex items-center gap-2 text-slate-900 font-heading font-bold text-sm">
+                    <Flame className="w-4 h-4 text-rose-500" />
                     <span>Placement Direct Line</span>
                   </div>
-                  <p className="text-xs text-slate-400">Top cohort performers get interviewed for Yugam & partner brands.</p>
+                  <p className="text-xs text-slate-500">Top cohort performers get interviewed for Yugam & partner brands.</p>
                 </div>
               </div>
 
             </div>
 
             {/* Right Column: Get Notified Form */}
-            <div className="lg:col-span-5 bg-[#0B0D12] p-8 rounded-2xl border border-white/10 shadow-xl">
+            <div className="lg:col-span-5 bg-slate-50 p-8 rounded-2xl border border-slate-200 shadow-sm">
               <div className="mb-6">
-                <span className="text-xs font-mono text-indigo-400 uppercase tracking-widest block mb-1">
+                <span className="text-xs font-mono text-indigo-700 uppercase tracking-widest font-bold block mb-1">
                   COHORT 01 NOTIFICATION
                 </span>
-                <h3 className="font-heading font-bold text-xl text-white">
+                <h3 className="font-heading font-bold text-xl text-slate-900">
                   Get Notified on Launch
                 </h3>
-                <p className="text-xs text-slate-400 mt-1">
+                <p className="text-xs text-slate-500 mt-1">
                   Seats are capped at 50 students per cohort to guarantee hands-on mentorship.
                 </p>
               </div>
 
               {middleSubmitted ? (
-                <div className="p-6 rounded-xl bg-indigo-500/10 border border-indigo-500/30 text-center space-y-3">
-                  <div className="w-12 h-12 rounded-full bg-indigo-500/20 text-indigo-400 flex items-center justify-center mx-auto">
+                <div className="p-6 rounded-xl bg-indigo-50 border border-indigo-200 text-center space-y-3">
+                  <div className="w-12 h-12 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center mx-auto">
                     <CheckCircle2 className="w-6 h-6" />
                   </div>
-                  <div className="font-heading font-bold text-white text-base">
+                  <div className="font-heading font-bold text-slate-900 text-base">
                     You're on the Cohort Notification list!
                   </div>
-                  <p className="text-xs text-slate-300">
+                  <p className="text-xs text-slate-600">
                     We'll email you at {middleEmail} as soon as syllabus previews and early-bird scholarship applications open.
                   </p>
                 </div>
               ) : (
                 <form onSubmit={handleMiddleSubmit} className="space-y-4">
                   <div>
-                    <label className="block text-xs font-medium text-slate-300 mb-1.5">
+                    <label className="block text-xs font-semibold text-slate-700 mb-1.5">
                       Your Email Address
                     </label>
                     <div className="relative">
-                      <Mail className="w-4 h-4 text-slate-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                      <Mail className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
                       <input
                         type="email"
                         required
                         value={middleEmail}
                         onChange={(e) => setMiddleEmail(e.target.value)}
                         placeholder="you@domain.com"
-                        className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-white/[0.05] border border-white/10 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-indigo-400 transition-colors"
+                        className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-white border border-slate-200 text-slate-900 placeholder-slate-400 text-sm focus:outline-none focus:border-indigo-500 shadow-xs transition-colors"
                       />
                     </div>
                   </div>
 
                   <div>
-                    <label className="block text-xs font-medium text-slate-300 mb-1.5">
+                    <label className="block text-xs font-semibold text-slate-700 mb-1.5">
                       Skill Track You're Most Interested In
                     </label>
                     <select
                       value={middleTrack}
                       onChange={(e) => setMiddleTrack(e.target.value)}
-                      className="w-full px-3.5 py-2.5 rounded-xl bg-[#131722] border border-white/10 text-white text-sm focus:outline-none focus:border-indigo-400 transition-colors"
+                      className="w-full px-3.5 py-2.5 rounded-xl bg-white border border-slate-200 text-slate-900 text-sm focus:outline-none focus:border-indigo-500 shadow-xs transition-colors"
                     >
                       <option value="Full-Stack Tech & AI">Full-Stack Web (React, Node, AI Integrations)</option>
                       <option value="Video Editing & Cinema Production">Video Production & Viral Reel Editing</option>
@@ -361,7 +355,7 @@ export const Ventures: React.FC = () => {
 
                   <button
                     type="submit"
-                    className="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white font-heading font-bold text-xs uppercase tracking-wider transition-all shadow-lg shadow-indigo-500/20 active:scale-98 flex items-center justify-center gap-2"
+                    className="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-indigo-600 to-indigo-700 hover:from-indigo-700 hover:to-indigo-800 text-white font-heading font-bold text-xs uppercase tracking-wider transition-all shadow-md shadow-indigo-500/20 active:scale-98 flex items-center justify-center gap-2"
                   >
                     <span>Notify Me on Cohort 01</span>
                     <Send className="w-3.5 h-3.5" />
@@ -382,21 +376,21 @@ export const Ventures: React.FC = () => {
           MORE IN THE PIPELINE / INVESTOR COLLABORATION CARD
           ========================================================================= */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div className="rounded-3xl bg-white/[0.02] border border-white/10 p-8 sm:p-12 text-center relative overflow-hidden">
+        <div className="rounded-3xl bg-white border border-slate-200 p-8 sm:p-12 text-center shadow-sm relative overflow-hidden">
           <div className="max-w-2xl mx-auto space-y-4">
-            <span className="text-xs font-mono text-slate-400 tracking-widest uppercase">
+            <span className="text-xs font-mono text-slate-500 tracking-widest uppercase font-semibold">
               YUGAM R&D ECOSYSTEM
             </span>
-            <h3 className="font-heading font-extrabold text-2xl sm:text-3xl text-white">
+            <h3 className="font-heading font-extrabold text-2xl sm:text-3xl text-slate-900">
               Are You an Investor, Builder, or Domain Expert?
             </h3>
-            <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
+            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
               We frequently partner with angel syndicates, venture capitalists, and veteran operators who want to co-build high-impact technology products. Connect directly with Yugam's founding team.
             </p>
             <div className="pt-4">
               <a
                 href="mailto:hello@yugam.in?subject=Venture%20Lab%20Syndicate%20Inquiry"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-white/[0.08] hover:bg-white/[0.15] text-white font-heading font-semibold text-xs tracking-wider uppercase border border-white/10 transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-heading font-semibold text-xs tracking-wider uppercase border border-slate-200 transition-colors"
               >
                 <span>Connect With Yugam R&D</span>
                 <ArrowRight className="w-4 h-4" />

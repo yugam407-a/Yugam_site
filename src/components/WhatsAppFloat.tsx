@@ -14,15 +14,15 @@ export const WhatsAppFloat: React.FC = () => {
     >
       <div className="relative flex items-center">
         {/* Tooltip on hover */}
-        <span className="hidden sm:inline-block mr-3 px-3.5 py-1.5 rounded-full bg-[#131722] border border-white/10 text-xs font-medium text-white shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap">
+        <span className="hidden sm:inline-block mr-3 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 text-xs font-semibold text-slate-800 shadow-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap">
           Quick Connect on WhatsApp 👋
         </span>
 
         {/* WhatsApp Button */}
         <div className="w-14 h-14 rounded-full bg-[#25D366] hover:bg-[#20bd5a] text-white flex items-center justify-center shadow-lg shadow-[#25D366]/30 transition-transform transform group-hover:scale-110 active:scale-95">
           <MessageCircle className="w-7 h-7 fill-current" />
-          <span className="absolute top-0 right-0 w-3.5 h-3.5 bg-amber-400 border-2 border-[#0B0D12] rounded-full animate-ping" />
-          <span className="absolute top-0 right-0 w-3.5 h-3.5 bg-amber-400 border-2 border-[#0B0D12] rounded-full" />
+          <span className="absolute top-0 right-0 w-3.5 h-3.5 bg-amber-400 border-2 border-white rounded-full animate-ping" />
+          <span className="absolute top-0 right-0 w-3.5 h-3.5 bg-amber-400 border-2 border-white rounded-full" />
         </div>
       </div>
     </a>

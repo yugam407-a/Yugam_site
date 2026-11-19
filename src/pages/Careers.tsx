@@ -113,28 +113,28 @@ export const Careers: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-[#0B0D12] text-[#F8FAFC] overflow-x-hidden selection:bg-indigo-500 selection:text-white">
+    <div className="min-h-screen bg-[#F8FAFC] text-[#0F172A] overflow-x-hidden selection:bg-indigo-600 selection:text-white">
       
       {/* =========================================================================
           HERO SECTION
           ========================================================================= */}
       <section className="relative pt-16 pb-20 md:pt-24 md:pb-28 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
-        <div className="absolute top-10 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-indigo-600/10 blur-[140px] rounded-full pointer-events-none" />
+        <div className="absolute top-10 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-indigo-500/10 blur-[140px] rounded-full pointer-events-none" />
 
         <div className="relative z-10 max-w-4xl mx-auto space-y-6">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/30 text-indigo-300 text-xs font-mono">
-            <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-50 border border-indigo-200 text-indigo-700 text-xs font-mono font-semibold">
+            <Sparkles className="w-3.5 h-3.5 text-indigo-600" />
             <span>WE ARE HIRING IN NOIDA // JOIN THE MOVEMENT</span>
           </div>
 
-          <h1 className="font-heading font-extrabold text-4xl sm:text-6xl text-white tracking-tight leading-tight">
+          <h1 className="font-heading font-extrabold text-4xl sm:text-6xl text-slate-900 tracking-tight leading-tight">
             Build Brands. Ship Products.{' '}
-            <span className="bg-gradient-to-r from-indigo-400 via-indigo-300 to-amber-300 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-indigo-600 via-indigo-700 to-amber-600 bg-clip-text text-transparent">
               Grow With Yugam.
             </span>
           </h1>
 
-          <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+          <p className="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
             We are not a bloated corporate bureaucracy. At Yugam, you work directly on high-growth client brands and get to build groundbreaking products in our Innovation Lab.
           </p>
         </div>
@@ -142,38 +142,38 @@ export const Careers: React.FC = () => {
         {/* Culture Highlights Bento */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto text-left">
           
-          <div className="p-6 rounded-2xl bg-[#131722] border border-white/10">
-            <div className="w-10 h-10 rounded-xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center mb-4">
+          <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+            <div className="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center mb-4">
               <Zap className="w-5 h-5" />
             </div>
-            <h3 className="font-heading font-bold text-lg text-white mb-2">
+            <h3 className="font-heading font-bold text-lg text-slate-900 mb-2">
               Extreme Autonomy
             </h3>
-            <p className="text-xs text-slate-300 leading-relaxed">
+            <p className="text-xs text-slate-600 leading-relaxed">
               No micro-management. You are given high-level revenue and creative goals and the trust to experiment, fail fast, and ship big wins.
             </p>
           </div>
 
-          <div className="p-6 rounded-2xl bg-[#131722] border border-white/10">
-            <div className="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center mb-4">
+          <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+            <div className="w-10 h-10 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center mb-4">
               <Laptop className="w-5 h-5" />
             </div>
-            <h3 className="font-heading font-bold text-lg text-white mb-2">
+            <h3 className="font-heading font-bold text-lg text-slate-900 mb-2">
               Agency + Venture Hybrid
             </h3>
-            <p className="text-xs text-slate-300 leading-relaxed">
+            <p className="text-xs text-slate-600 leading-relaxed">
               You won't get bored doing repetitive agency client work. You'll also write code and produce content for Gatbandhan AI and Middle Bencher.
             </p>
           </div>
 
-          <div className="p-6 rounded-2xl bg-[#131722] border border-white/10">
-            <div className="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-4">
+          <div className="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+            <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-4">
               <Coffee className="w-5 h-5" />
             </div>
-            <h3 className="font-heading font-bold text-lg text-white mb-2">
+            <h3 className="font-heading font-bold text-lg text-slate-900 mb-2">
               Modern Studio in Noida
             </h3>
-            <p className="text-xs text-slate-300 leading-relaxed">
+            <p className="text-xs text-slate-600 leading-relaxed">
               High-speed workstations, cinema camera rigs, podcast microphones, good coffee, and a collaborative team of builders who love what they do.
             </p>
           </div>
@@ -190,10 +190,10 @@ export const Careers: React.FC = () => {
           {/* Left Column: 4 Open Roles Accordion */}
           <div className="lg:col-span-7 space-y-6">
             <div className="mb-6">
-              <span className="text-xs font-mono text-indigo-400 uppercase tracking-widest block mb-1">
+              <span className="text-xs font-mono text-indigo-700 uppercase tracking-widest font-bold block mb-1">
                 CURRENT OPENINGS
               </span>
-              <h2 className="font-heading font-extrabold text-2xl sm:text-3xl text-white">
+              <h2 className="font-heading font-extrabold text-2xl sm:text-3xl text-slate-900">
                 Explore Available Positions
               </h2>
             </div>
@@ -202,7 +202,7 @@ export const Careers: React.FC = () => {
               {roles.map((role, idx) => (
                 <div
                   key={idx}
-                  className="rounded-2xl bg-[#131722] border border-white/10 overflow-hidden transition-all"
+                  className="rounded-2xl bg-white border border-slate-200 shadow-sm overflow-hidden transition-all"
                 >
                   <button
                     onClick={() => toggleRole(idx)}
@@ -210,38 +210,38 @@ export const Careers: React.FC = () => {
                   >
                     <div>
                       <div className="flex flex-wrap items-center gap-2 mb-2">
-                        <span className="text-xs font-mono px-2.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
+                        <span className="text-xs font-mono px-2.5 py-0.5 rounded bg-indigo-50 text-indigo-700 border border-indigo-200 font-semibold">
                           {role.type}
                         </span>
-                        <span className="text-xs font-mono text-slate-400 flex items-center gap-1">
-                          <MapPin className="w-3 h-3 text-slate-500" />
+                        <span className="text-xs font-mono text-slate-500 flex items-center gap-1 font-medium">
+                          <MapPin className="w-3 h-3 text-slate-400" />
                           {role.location}
                         </span>
                       </div>
-                      <h3 className="font-heading font-bold text-lg text-white">
+                      <h3 className="font-heading font-bold text-lg text-slate-900">
                         {role.title}
                       </h3>
-                      <div className="text-xs text-emerald-400 font-mono mt-1">
+                      <div className="text-xs text-emerald-600 font-mono font-semibold mt-1">
                         {role.salary}
                       </div>
                     </div>
 
                     <ChevronDown
                       className={`w-5 h-5 text-slate-400 shrink-0 mt-2 transition-transform duration-200 ${
-                        openRole === idx ? 'rotate-180 text-indigo-400' : ''
+                        openRole === idx ? 'rotate-180 text-indigo-600' : ''
                       }`}
                     />
                   </button>
 
                   {openRole === idx && (
-                    <div className="px-6 pb-6 pt-2 border-t border-white/5 space-y-4 text-xs sm:text-sm text-slate-300">
+                    <div className="px-6 pb-6 pt-2 border-t border-slate-100 space-y-4 text-xs sm:text-sm text-slate-600">
                       <p className="leading-relaxed">
                         {role.description}
                       </p>
 
                       <div>
-                        <strong className="text-white block mb-2 font-heading">Key Responsibilities:</strong>
-                        <ul className="space-y-1.5 list-disc pl-4 text-xs text-slate-400">
+                        <strong className="text-slate-900 block mb-2 font-heading">Key Responsibilities:</strong>
+                        <ul className="space-y-1.5 list-disc pl-4 text-xs text-slate-600">
                           {role.responsibilities.map((r, rIdx) => (
                             <li key={rIdx}>{r}</li>
                           ))}
@@ -249,8 +249,8 @@ export const Careers: React.FC = () => {
                       </div>
 
                       <div>
-                        <strong className="text-white block mb-2 font-heading">Requirements:</strong>
-                        <ul className="space-y-1.5 list-disc pl-4 text-xs text-slate-400">
+                        <strong className="text-slate-900 block mb-2 font-heading">Requirements:</strong>
+                        <ul className="space-y-1.5 list-disc pl-4 text-xs text-slate-600">
                           {role.requirements.map((req, reqIdx) => (
                             <li key={reqIdx}>{req}</li>
                           ))}
@@ -264,7 +264,7 @@ export const Careers: React.FC = () => {
                             const formElement = document.getElementById('application-form');
                             formElement?.scrollIntoView({ behavior: 'smooth' });
                           }}
-                          className="px-4 py-2 rounded-lg bg-indigo-500/20 hover:bg-indigo-500 text-indigo-300 hover:text-white border border-indigo-500/30 text-xs font-heading font-semibold transition-colors"
+                          className="px-4 py-2 rounded-lg bg-indigo-50 hover:bg-indigo-600 text-indigo-700 hover:text-white border border-indigo-200 text-xs font-heading font-semibold transition-colors"
                         >
                           Apply For This Role Below ↓
                         </button>
@@ -277,35 +277,35 @@ export const Careers: React.FC = () => {
           </div>
 
           {/* Right Column: Interactive Job Application Form */}
-          <div id="application-form" className="lg:col-span-5 bg-[#131722] p-8 rounded-3xl border border-white/10 shadow-2xl relative sticky top-28">
+          <div id="application-form" className="lg:col-span-5 bg-white p-8 rounded-3xl border border-slate-200 shadow-xl relative sticky top-28">
             <div className="mb-6">
-              <span className="text-xs font-mono text-amber-400 uppercase tracking-widest block mb-1">
+              <span className="text-xs font-mono text-amber-700 uppercase tracking-widest font-bold block mb-1">
                 FAST-TRACK APPLICATION
               </span>
-              <h3 className="font-heading font-bold text-xl text-white">
+              <h3 className="font-heading font-bold text-xl text-slate-900">
                 Submit Your Candidacy
               </h3>
-              <p className="text-xs text-slate-400 mt-1">
+              <p className="text-xs text-slate-500 mt-1">
                 We review applications within 48 business hours.
               </p>
             </div>
 
             {submitted ? (
-              <div className="p-8 rounded-2xl bg-emerald-500/10 border border-emerald-500/30 text-center space-y-3">
-                <div className="w-12 h-12 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center mx-auto">
+              <div className="p-8 rounded-2xl bg-emerald-50 border border-emerald-200 text-center space-y-3">
+                <div className="w-12 h-12 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto">
                   <CheckCircle2 className="w-6 h-6" />
                 </div>
-                <div className="font-heading font-bold text-white text-lg">
+                <div className="font-heading font-bold text-slate-900 text-lg">
                   Application Received!
                 </div>
-                <p className="text-xs text-slate-300">
-                  Thank you, {applicantName}. Our hiring team has received your portfolio for <strong className="text-white">{selectedRole}</strong>. If there's an alignment, we'll reach out on WhatsApp/Email ({applicantEmail}) for a quick chat.
+                <p className="text-xs text-slate-600">
+                  Thank you, {applicantName}. Our hiring team has received your portfolio for <strong className="text-slate-900">{selectedRole}</strong>. If there's an alignment, we'll reach out on WhatsApp/Email ({applicantEmail}) for a quick chat.
                 </p>
               </div>
             ) : (
               <form onSubmit={handleApply} className="space-y-4">
                 <div>
-                  <label className="block text-xs font-medium text-slate-300 mb-1">
+                  <label className="block text-xs font-semibold text-slate-700 mb-1">
                     Full Name *
                   </label>
                   <input
@@ -314,13 +314,13 @@ export const Careers: React.FC = () => {
                     value={applicantName}
                     onChange={(e) => setApplicantName(e.target.value)}
                     placeholder="e.g. Ananya Sharma"
-                    className="w-full px-4 py-2.5 rounded-xl bg-white/[0.05] border border-white/10 text-white text-xs placeholder-slate-500 focus:outline-none focus:border-indigo-400"
+                    className="w-full px-4 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-xs placeholder-slate-400 focus:outline-none focus:border-indigo-500"
                   />
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-xs font-medium text-slate-300 mb-1">
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">
                       Email Address *
                     </label>
                     <input
@@ -329,12 +329,12 @@ export const Careers: React.FC = () => {
                       value={applicantEmail}
                       onChange={(e) => setApplicantEmail(e.target.value)}
                       placeholder="you@email.com"
-                      className="w-full px-4 py-2.5 rounded-xl bg-white/[0.05] border border-white/10 text-white text-xs placeholder-slate-500 focus:outline-none focus:border-indigo-400"
+                      className="w-full px-4 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-xs placeholder-slate-400 focus:outline-none focus:border-indigo-500"
                     />
                   </div>
 
                   <div>
-                    <label className="block text-xs font-medium text-slate-300 mb-1">
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">
                       Phone / WhatsApp *
                     </label>
                     <input
@@ -343,19 +343,19 @@ export const Careers: React.FC = () => {
                       value={applicantPhone}
                       onChange={(e) => setApplicantPhone(e.target.value)}
                       placeholder="+91 98765 43210"
-                      className="w-full px-4 py-2.5 rounded-xl bg-white/[0.05] border border-white/10 text-white text-xs placeholder-slate-500 focus:outline-none focus:border-indigo-400"
+                      className="w-full px-4 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-xs placeholder-slate-400 focus:outline-none focus:border-indigo-500"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-xs font-medium text-slate-300 mb-1">
+                  <label className="block text-xs font-semibold text-slate-700 mb-1">
                     Role Applying For *
                   </label>
                   <select
                     value={selectedRole}
                     onChange={(e) => setSelectedRole(e.target.value)}
-                    className="w-full px-3.5 py-2.5 rounded-xl bg-[#0B0D12] border border-white/10 text-white text-xs focus:outline-none focus:border-indigo-400"
+                    className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-xs focus:outline-none focus:border-indigo-500"
                   >
                     <option value="Videographer & Reel Editor">Videographer & Reel Editor</option>
                     <option value="Performance Marketing Specialist (Meta & Google Ads)">Performance Marketing Specialist</option>
@@ -366,7 +366,7 @@ export const Careers: React.FC = () => {
                 </div>
 
                 <div>
-                  <label className="block text-xs font-medium text-slate-300 mb-1">
+                  <label className="block text-xs font-semibold text-slate-700 mb-1">
                     Portfolio / GitHub / Google Drive Reel Link *
                   </label>
                   <input
@@ -375,12 +375,12 @@ export const Careers: React.FC = () => {
                     value={portfolioUrl}
                     onChange={(e) => setPortfolioUrl(e.target.value)}
                     placeholder="https://drive.google.com/... or github.com/..."
-                    className="w-full px-4 py-2.5 rounded-xl bg-white/[0.05] border border-white/10 text-white text-xs placeholder-slate-500 focus:outline-none focus:border-indigo-400"
+                    className="w-full px-4 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-xs placeholder-slate-400 focus:outline-none focus:border-indigo-500"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-xs font-medium text-slate-300 mb-1">
+                  <label className="block text-xs font-semibold text-slate-700 mb-1">
                     Short Pitch / Why Yugam?
                   </label>
                   <textarea
@@ -388,13 +388,13 @@ export const Careers: React.FC = () => {
                     value={coverNote}
                     onChange={(e) => setCoverNote(e.target.value)}
                     placeholder="Tell us what you built recently that you're most proud of..."
-                    className="w-full px-4 py-2.5 rounded-xl bg-white/[0.05] border border-white/10 text-white text-xs placeholder-slate-500 focus:outline-none focus:border-indigo-400"
+                    className="w-full px-4 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-900 text-xs placeholder-slate-400 focus:outline-none focus:border-indigo-500"
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white font-heading font-bold text-xs uppercase tracking-wider transition-all shadow-lg shadow-indigo-500/25 active:scale-98 flex items-center justify-center gap-2"
+                  className="w-full py-3.5 px-4 rounded-xl bg-gradient-to-r from-indigo-600 to-indigo-700 hover:from-indigo-700 hover:to-indigo-800 text-white font-heading font-bold text-xs uppercase tracking-wider transition-all shadow-md shadow-indigo-500/20 active:scale-98 flex items-center justify-center gap-2"
                 >
                   <span>Submit Application</span>
                   <Send className="w-3.5 h-3.5" />
