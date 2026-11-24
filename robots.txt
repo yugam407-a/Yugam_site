@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Google Search Engine Sitemap
+Sitemap: https://yugam.vercel.app/sitemap.xml
